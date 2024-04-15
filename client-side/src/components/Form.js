@@ -6,7 +6,6 @@ import Cop3 from "./Cop3";
 import rightArrow from '../assests/right-aarow.svg'
 import { toast } from 'sonner'
 import {copImage0,copImage1,copImage2} from '../utils/CopImage1'
-import { fun } from "./catchThief";
 
 
 function Form() {
