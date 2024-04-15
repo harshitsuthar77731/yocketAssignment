@@ -66,7 +66,7 @@ function Result() {
             </div>
           </div>
           <div className="flex flex-col gap-6 items-center">
-            <p className="text-lg">Vehicle used: {result[1]}</p>
+            <p className="text-lg mb-4">Vehicle used: {result[1]}</p>
             <div>
               {<img className="cop-picture-holder" src={carToshow} alt="Vehicle" />}
             </div>
