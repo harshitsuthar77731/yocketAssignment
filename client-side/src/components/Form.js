@@ -38,7 +38,7 @@ function Form() {
       };
   
       const catchResult = await fetch(
-        "http://localhost:3001/api/capture",
+        "https://yocketassignment.onrender.com/api/capture",
         {
           method: 'POST',
           headers: {
@@ -64,7 +64,7 @@ function Form() {
   const fetchData = async () => {
     try {
       const cityData = await fetch(
-        "http://localhost:3001/api/cities"
+        "https://yocketassignment.onrender.com/api/cities"
       );
       const convertedCityData = await cityData.json(); // to convert promise data into json
       setCities(
@@ -73,7 +73,7 @@ function Form() {
       console.log(cities,"vbnm,")
       // generateCityMap(cityMap,cities)
       const vehicleData = await fetch(
-        "http://localhost:3001/api/vehicles"
+        "https://yocketassignment.onrender.com/api/vehicles"
       );
       const convertedVehicleData = await vehicleData.json(); // to convert promise data into json
       setVehicles(
